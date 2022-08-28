@@ -135,6 +135,9 @@ header .logo {
   float: left;
   width: 55%;
 }
+.container-box .content-section .btn {
+  margin-top: 5rem;
+}
 .container-box .image-section {
   float: right;
   width: 30%;
