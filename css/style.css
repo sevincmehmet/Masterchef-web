@@ -24,7 +24,7 @@ body {
   overflow-x: hidden;
 }
 section {
-  padding: 3.5rem 7%;
+  padding: 0 7%;
 }
 
 /* Header Start */
@@ -110,14 +110,19 @@ header .logo {
 .container-box {
   display: block;
   margin: auto;
-  padding-top: 10rem;
+  margin-top: 10rem;
+}
+.container-box .content-section {
+  float: left;
+  width: 55%;
+  margin-top: -22rem;
 }
 .container-box .content-section .title {
   text-transform: uppercase;
   font-size: 2.8rem;
   border-bottom: 0.2rem solid var(--black-color);
   color: rgb(150, 150, 150);
-  margin-top: 11rem;
+  padding-top: 23rem;
 }
 .container-box .content-section .content h3 {
   font-size: 2.1rem;
@@ -131,25 +136,40 @@ header .logo {
   line-height: 1.5;
   color: #fff;
 }
-.container-box .content-section {
-  float: left;
-  width: 55%;
-}
+
 .container-box .content-section .btn {
-  margin-top: 5rem;
+  margin-top: 2.4rem;
+  padding: 1.6rem 2rem;
+  float: left;
+  position: relative;
+  z-index: 2;
+}
+.container-box .content-section .social button {
+  float: right;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 3rem;
+  margin: 2.5rem 0;
+  padding: 0 0.35rem;
+  color: var(--black-color);
+  transition: 0.8ms;
+  position: relative;
+  z-index: 2;
+}
+.container-box .content-section .social button:hover {
+  color: rgb(150, 150, 150);
 }
 .container-box .image-section {
   float: right;
-  width: 30%;
+  width: 28%;
+  margin-top: -4rem;
 }
 .container-box .image-section img {
   width: 100%;
   height: auto;
-  margin-top: 9rem;
+  margin-top: 7rem;
   border-radius: 2rem;
 }
-.footer .social {
-  font-size: xx-large;
-}
+
 
 /* About End */
