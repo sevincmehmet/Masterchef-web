@@ -2,6 +2,7 @@
 
 :root {
   --main-color: #ff701d;
+  --secont-color: #c8a2c8;
   --black-color: rgb(40, 34, 34);
   --border: 0.1rem solid rgba(197, 191, 191, 0.455);
 }
@@ -96,13 +97,13 @@ header .logo {
   display: inline-block;
   padding: 2rem 3.75rem;
   font-size: 1.7rem;
-  color: rgba(255, 255, 255, 0.455);
+  color: #ccc;
   background-color: var(--black-color);
   border-radius: 30rem;
   cursor: pointer;
 }
 .btn:hover {
-  color: #fff;
+  color: var(--secont-color);
 }
 /* Home End */
 /* About Start */
@@ -115,14 +116,13 @@ header .logo {
 .container-box .content-section {
   float: left;
   width: 55%;
-  margin-top: -22rem;
+  padding-top: 4rem;
 }
 .container-box .content-section .title {
   text-transform: uppercase;
   font-size: 2.8rem;
   border-bottom: 0.2rem solid var(--black-color);
-  color: rgb(150, 150, 150);
-  padding-top: 23rem;
+  color: var(--secont-color);
 }
 .container-box .content-section .content h3 {
   font-size: 2.1rem;
@@ -141,8 +141,6 @@ header .logo {
   margin-top: 2.4rem;
   padding: 1.6rem 2rem;
   float: left;
-  position: relative;
-  z-index: 2;
 }
 .container-box .content-section .social button {
   float: right;
@@ -153,16 +151,14 @@ header .logo {
   padding: 0 0.35rem;
   color: var(--black-color);
   transition: 0.8ms;
-  position: relative;
-  z-index: 2;
 }
 .container-box .content-section .social button:hover {
-  color: rgb(150, 150, 150);
+  color: var(--secont-color);
 }
 .container-box .image-section {
   float: right;
   width: 28%;
-  margin-top: -4rem;
+  margin-top: -1rem;
 }
 .container-box .image-section img {
   width: 100%;
@@ -170,6 +166,5 @@ header .logo {
   margin-top: 7rem;
   border-radius: 2rem;
 }
-
 
 /* About End */
